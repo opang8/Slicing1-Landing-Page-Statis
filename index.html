@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Slicing 1</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/Group 60.svg" alt="" width="110px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Kategori
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gratisan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Berbayar</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="bola-merah d-none d-sm-block" data-aos="fade-up" data-aos-duration="3000"></div>
+            <div class="bola-biru d-none d-sm-block" data-aos="fade-up" data-aos-duration="2000"></div>
+            <h1 class="display-4">Kami Membantumu Menemukan <br> Dashboard Dengan Cepat dan Hemat</h1>
+            <p class="lead">
+                Lebih dari 20.000 orang dan perusahaan <br>
+                telah menggunakan dashboard kami
+            </p>
+            <div class="inline">
+                <button class="btn btn-cta">
+                    Beli Sekarang
+                </button>
+
+                <button class="btn btn-cta-border">
+                    Gratisan
+                </button>
+            </div>
+            <img src="images/mac.png" alt="" class="imac img-fluid d-none d-sm-block" data-aos="zoom-in">
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col text-center">
+                <p class="body-text text-center">
+                    Perusahaan besar yang telah menggunakan dashboard kami
+                </p>
+                <img src="images/partners.jpg" alt="" width="870px" class="partners img-fluid">
+            </div>
+        </div>
+
+        <div class="tools">
+            <div class="row justify-content-center">
+                <div class="col-11 col-lg-6">
+                    <h2 class="text-section2">
+                        Halaman Dashboard <br>
+                        Untuk Projekmu
+                    </h2>
+                    <p class="body-text">
+                        Template HTML, React, Vue.js, dan Tailwind yang dirancang
+                        dengan indah! Hemat waktu berminggu-minggu dan
+                        buat halaman Dashboard Anda dalam hitungan menit.
+                    </p>
+                </div>
+                <div class="col-11 col-lg-6">
+                    <div class="row m-mobile">
+                        <div class="col-6 col-lg-4 mb-4">
+                            <img src="images/image 1.png" alt="" width="101px" height="101px" data-aos="fade-up"
+                                data-aos-delay="300" class="mx-auto d-block m-mobile">
+                        </div>
+                        <div class="col-6 col-lg-4 mb-4">
+                            <img src="images/image 2.png" alt="" width="101px" height="101px" data-aos="fade-up"
+                                data-aos-delay="300" class="mx-auto d-block m-mobile">
+                        </div>
+                        <div class="col-6 col-lg-4 mb-4">
+                            <img src="images/image 3.png" alt="" width="101px" height="101px" data-aos="fade-up"
+                                data-aos-delay="300" class="mx-auto d-block m-mobile">
+                        </div>
+                        <div class="col-6 col-lg-4 mb-4">
+                            <img src="images/image 4.png" alt="" width="101px" height="101px" data-aos="fade-up"
+                                data-aos-delay="500" class="mx-auto d-block m-mobile">
+                        </div>
+                        <div class="col-6 col-lg-4 mb-4">
+                            <img src="images/image 5.png" alt="" width="101px" height="101px" data-aos="fade-up"
+                                data-aos-delay="500" class="mx-auto d-block m-mobile">
+                        </div>
+                        <div class="col-6 col-lg-4 mb-4">
+                            <img src="images/image 6.png" alt="" width="101px" height="101px" data-aos="fade-up"
+                                data-aos-delay="500" class="mx-auto d-block m-mobile">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="row space">
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="box-image">
+                                    <img src="images/dashboard1.jpg" alt="" width="440px"
+                                        class="rounded mx-auto d-block  img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div class="mr-auto p-2" style="font-size: 21px;">Rp.400.000,00</div>
+                        <div class="p-2 mr-3 text-muted">Buid With</div>
+                        <div class="p-2 btn-yellow">Tailwind Css</div>
+                    </div>
+                    <div class="mt-1 ml-2 text-blue">
+                        Dashboard Pro
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="box-image">
+                                    <img src="images/dashboard2.jpg" alt="" width="440px"
+                                        class="rounded mx-auto d-block img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div class="mr-auto p-2" style="font-size: 21px;">Rp.0</div>
+                        <div class="p-2 mr-3 text-muted">Buid With</div>
+                        <div class="p-2 btn-purple">Cruip Css</div>
+                    </div>
+                    <div class="mt-1 ml-2 text-blue">
+                        Free Dashboard
+                    </div>
+                </div>
+            </div>
+            <div class="row space">
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="box-image">
+                                    <img src="images/dashboard2.jpg" alt="" width="440px"
+                                        class="rounded mx-auto d-block img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div class="mr-auto p-2" style="font-size: 21px;">Rp.0</div>
+                        <div class="p-2 mr-3 text-muted">Buid With</div>
+                        <div class="p-2 btn-purple">Cruip Css</div>
+                    </div>
+                    <div class="mt-1 ml-2 text-blue">
+                        Free Dashboard
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="box-image">
+                                    <img src="images/dashboard4.jpg" alt="" width="440px"
+                                        class="rounded mx-auto d-block img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div class="mr-auto p-2" style="font-size: 21px;">Rp.500.000,00</div>
+                        <div class="p-2 mr-3 text-muted">Buid With</div>
+                        <div class="p-2 btn-yellow">Tailwind Css</div>
+                    </div>
+                    <div class="mt-1 ml-2 text-blue">
+                        Dashboard Pro
+                    </div>
+                </div>
+            </div>
+            <div class="row space">
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="box-image">
+                                    <img src="images/dashboard4.jpg" alt="" width="440px"
+                                        class="rounded mx-auto d-block img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div class="mr-auto p-2" style="font-size: 21px;">Rp.700.000,00</div>
+                        <div class="p-2 mr-3 text-muted">Buid With</div>
+                        <div class="p-2 btn-yellow">Tailwind Css</div>
+                    </div>
+                    <div class="mt-1 ml-2 text-blue">
+                        Dashboard Pro
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="box-image">
+                                    <img src="images/dashboard1.jpg" alt="" width="440px"
+                                        class="rounded mx-auto d-block img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div class="mr-auto p-2" style="font-size: 21px;">Rp.400.000,00</div>
+                        <div class="p-2 mr-3 text-muted">Buid With</div>
+                        <div class="p-2 btn-yellow">Tailwind Css</div>
+                    </div>
+                    <div class="mt-1 ml-2 text-blue">
+                        Dashboard Pro
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-12">
+                <div class="bg_email d-none d-sm-block">
+                    <div class="row justify-content-center">
+                        <div class="col-5">
+                            <img src="images/email.svg" alt="" class="mx-auto d-block" style="margin-top: 60px;">
+                        </div>
+                        <div class="col-6 align-self-center">
+                            <div class="row">
+                                <div class="col-12 mt-4">
+                                    <h2 class="sub">
+                                        Subscribe to our newsletter
+                                    </h2>
+
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Email"
+                                            aria-label="Search" style="width: 248px; height: 52px;">
+                                        <button class="btn btn-primary my-2 my-sm-0" type="submit"
+                                            style="width: 128px; height: 48px;">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="section-footer mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit <span class="blue">new</span></a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Reward</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Cilebut Barat</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">0896 - 1156 - 9578</a></li>
+                                <li><a href="#">support@vdas.id</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2021 Copyright vdas • All rights reserved • Made in Cilebut Barat
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
